@@ -1,3 +1,2 @@
 ## Otter_Library
-This application creates username and password and store the information to internal database.
-The library administrator is able to add new books to database system, then the user is able to select and reserve the book.
+This application enables users to create unique usernames and passwords, securely storing the information in an internal database. The library administrator has the capability to add new books to the database system, allowing users to easily browse, select, and reserve their desired books.
