@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".UserHoldActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book to Hold Activity"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/bookToHold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book to hold" />
+
+    <EditText
+        android:id="@+id/verify_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="verify Username" />
+
+    <EditText
+        android:id="@+id/verify_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="verify Password" />
+
+    <Button
+        android:id="@+id/holdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hold" />
+
+</LinearLayout>
